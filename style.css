@@ -1,0 +1,350 @@
+body {
+    /* background-image: url(waqar-eel8FoPWqdw-unsplash.jpg); */
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(2, 2, 98);
+    margin: 0;
+}
+
+.main, .pageOne, .pageTwo, .pageThree {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    overflow: auto;
+}
+
+.leftColumn {
+    display: flex;
+    position: relative;
+    position: fixed;
+}
+.rightColumn {
+    display: flex;
+    position: absolute;
+    position: fixed;
+    right: 0px;
+    bottom: 130px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color:rgb(158, 205, 246);
+    transform:rotate(-90deg);
+}
+/* .logo {
+    display: flex;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 20px;
+    left: 20px;
+} */
+.links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+.socialLinks {
+    list-style: none;
+}
+.test, .Instagram, .LinkedIn {
+    width: 40px;
+    height: 40px;
+}
+.test:hover {
+    cursor: pointer;
+}
+.Instagram:hover {
+    cursor: pointer;
+}
+.LinkedIn:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-right: 80px;
+}
+
+/* .myLogo {
+    width: 40px;
+    height: 40px;
+} */
+
+.firstLine {
+    font-size: 60px;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(to left, blue, aquamarine);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.firstLine:hover {
+    background: linear-gradient(to left, #8007ea, hwb(271 48% 7%));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.iBuild {
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    color: rgb(158, 205, 246);
+}
+
+.info1 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: aqua;
+}
+.info {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(158, 205, 246);
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(158, 205, 246);
+}
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    background: none;
+    color: aqua;
+    border-style: solid;
+    border-radius: 5px;
+    width: 20%;
+    position: absolute;
+}
+.btn:hover {
+    color: red;
+    cursor: pointer;
+}
+.btn1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    background: none;
+    color: aqua;
+    border-style: solid;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 10px;;
+}
+.btn1:hover {
+    cursor: pointer;
+    color: red;
+}
+.pageOne {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+
+.topLine {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 15px;
+    height: 50px;
+}
+nav {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+}
+.navItem {
+    list-style: none;
+    margin-inline: 10px;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgb(158, 205, 246);
+}
+a:hover {
+    cursor: pointer;
+    color: aqua;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.horizontalBox {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.stack {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(158, 205, 246);
+    list-style: none;
+    padding: 10px;
+}
+
+.pageTwo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+
+.link1, .link2, .link3, .link4, .link5, .link6 {
+    width: 30px;
+}
+
+.experience {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.item {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(158, 205, 246);
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    position: relative;
+}
+.projectsLinked {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+h4 {
+    position: absolute;
+    font-size: 0px;
+    top: 15px;
+    left: 40px;
+    background-color: blue;
+}
+.par {
+    position: absolute;
+    font-size: 0px;
+    top: 100px;
+    left: 40px;
+    background-color: blue;
+}
+.bottomLine {
+    position: absolute;
+    font-size: 0px;
+    bottom: 40px;
+    left: 40px;
+    background-color: blue;
+}
+.one {
+    background-image: url('bakery.HEIC');
+}
+.two {
+    background-image: url('bakery.HEIC');
+}
+.three {
+    background-image: url('MunichOlya_44.jpg');
+}
+.four {
+    background-image: url('bakery.HEIC')
+}
+.five {
+    background-image: url('bakery.HEIC');
+}
+.six {
+    background-image: url('bakery.HEIC')
+}
+.link1:hover, .link2:hover, .link3:hover, .link4:hover, .link5:hover, .link6:hover {
+    cursor: pointer;
+}
+.selected {
+    flex:4;
+}
+.selected h4 {
+    font-size: 25px;
+    transition: all 1s ease-in;
+}
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+.selected .bottomLine {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+.pageThree {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 80px;
+}
+.info3{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(158, 205, 246);
+    width: 70%;
+    align-self: center;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(158, 205, 246);
+}
+.contact {
+    align-self: center;
+}
+.text1 {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(158, 205, 246);;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+    .firstLine {
+        font-size: 50px;
+    }
+    .iBuild {
+        font-size: 45px;
+    }
+    .btn {
+        width: 45%;
+    }
+    .info {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    .iBuild {
+        font-size: 30px;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .links {
+        flex-direction: row;
+    }
+}
